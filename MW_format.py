@@ -35,7 +35,7 @@ data = [
 # Define the field names and their corresponding data format
 field_formats = {
     'MW POI ID': r'^[A-Za-z0-9]{16}$',
-    'Location Name': r'^[A-Za-z0-9 ]{1,256}$',
+    'Location Name': r'^[A-Za-z0-9 ]{1}$',
     'Parent_Category': r'^[A-Za-z0-9 ]{1,256}$',
     'Child_Category': r'^[A-Za-z0-9 ]{1,256}$',
     'Grand_Child_Category': r'^[A-Za-z0-9 ]{1,256}$',
